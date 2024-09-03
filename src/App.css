@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.conte {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.photo {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.video {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.audio {
+  display: none;
+}
+
+.nome {
+  font-size: 3rem;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.rotina {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.contato-link {
+  display: block;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  color: #007bff;
+  text-decoration: none;
+}
+.contato-link:hover {
+  text-decoration: underline;
+}
+
